@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Fontspring-DEMO-integralcf-bold';
+    src: url('/fonts/Fontspring-DEMO-integralcf-bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* root */
+:root{
+    --cf: 'Fontspring-DEMO-integralcf-bold', sans-serif;
+}
+
+
+
+/* common */
+body{
+    
+}
+
+
+
+
+/* header */
+/* search bar */
+.cnav{}
+.logo{
+    margin: auto;
+    padding-right: 26px;
+    font-family: var(--cf);
+}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{}
+.menu ul li a:hover{}
+.bi{
+    font-size: 20px;
+}
+
+
+.form-control::placeholder {
+    color: #828282;
+    font-size: 14px;
+}
+
+
+.form-control {
+    width: 480px;
+}
